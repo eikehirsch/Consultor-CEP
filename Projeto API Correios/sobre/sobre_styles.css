@@ -1,0 +1,134 @@
+* {
+     box-sizing: border-box;
+     padding: 0;
+     margin: 0;
+}
+
+.cabecalho{
+     background-color: #EFF36C;
+     border: 1px solid black;
+     height: 100px;
+}
+
+.cabecalho__div{
+     align-items: center;
+     height: 100px;
+}
+
+.cabecalho__nav{
+     align-items: center;
+     display: flex;
+     height: 100px;
+     justify-content: space-between;
+     padding: 10px 20px;
+}
+
+.cabecalho__imagem{
+     width: 250px;
+}
+
+.cabecalho__lista{
+     align-items: flex-end;
+     display: flex;
+     font-size: 20px;
+     font-weight: bold;
+     list-style: none;
+     margin-right: 55px;
+     text-transform: uppercase;
+}
+
+.cabecalho__lista li a {
+     color: black;
+     font-weight: bold;
+     margin-left: 20px;
+     text-decoration: none;
+}
+
+#lista__item4{
+     text-decoration: underline;
+}
+
+#lista__item1:hover, #lista__item2:hover, #lista__item3:hover, #lista__item4:hover, #lista__item5:hover {
+     color: #1e709c;
+     text-decoration: underline;
+}
+
+.main{
+     background: rgba(226, 238, 240, 0.906);
+     display: flex;
+     flex-direction: column;
+     height: 553px;
+}
+
+.main__lista{
+     align-items: center;
+     display: flex;
+     font-size: 18px;
+     justify-content: center;
+     list-style: none;
+     margin: 20px;
+}
+
+.main__lista li{
+     margin-left: 35px;
+}
+
+.main__div{
+     align-items: center;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+}
+
+.cartoes{
+     align-items: center;
+     background-color: rgb(244, 251, 115);
+     border: 2px solid black;
+     display: flex;
+     flex-direction: column;
+     font-size: 18px;
+     height: 220px;
+     justify-content: center;
+     padding: 7px;
+     margin: 10px;
+     opacity: 30%;
+     text-align: center;
+     width: 420px;
+}
+
+.cartoes:hover{
+     box-shadow: 3px 3px rgb(35, 58, 236);
+     opacity: 100%;
+     transition: 1s;
+}
+
+.cartao-um:hover .main__lista__item-um{
+     color: #EFF36C;
+     font-size: 25px;
+}
+
+.cartoes h3{
+     text-align: center;
+}
+
+.cartoes__imagens{
+     height: 145px;
+     margin-top: 10px;
+     width: 240px;
+}
+
+
+.rodape{
+     align-items: center;
+     background-color: #05699f;
+     border: 1px solid black;
+     display: flex;
+     height: 100px;
+     justify-content: center;
+}
+
+.rodape__direitos{
+     color: white;
+     font-size: 16px;
+     font-weight: 400;
+}

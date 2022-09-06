@@ -1,0 +1,132 @@
+* {
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+}
+
+.cabecalho{
+     background-color: #EFF36C;
+     border: 1px solid black;
+     height: 100px;
+}
+
+.cabecalho__div{
+     align-items: center;
+     height: 100px;
+}
+
+.cabecalho__nav{
+     align-items: center;
+     display: flex;
+     height: 100px;
+     justify-content: space-between;
+     padding: 10px 20px;
+}
+
+.cabecalho__imagem{
+     width: 250px;
+}
+
+.cabecalho__lista{
+     align-items: flex-end;
+     display: flex;
+     font-size: 20px;
+     font-weight: bold;
+     list-style: none;
+     margin-right: 55px;
+     text-transform: uppercase;
+}
+
+.cabecalho__lista li a {
+     color: black;
+     font-weight: bold;
+     margin-left: 20px;
+     text-decoration: none;
+}
+
+#lista__item3{
+     text-decoration: underline;
+}
+
+#lista__item1:hover, #lista__item2:hover, #lista__item3:hover, #lista__item4:hover, #lista__item5:hover {
+     color: #1e709c;
+     text-decoration: underline;
+}
+
+.main{
+     background-color: rgba(226, 238, 240, 0.906);
+     height: 553px;
+}
+
+.main__div-principal{
+     align-items: center;
+     display: flex;
+     height: 553px;
+     justify-content: space-around;
+
+}
+
+.main__div-filha{
+     border: 2px solid black;
+     border-radius: 5px;
+     height: 450px;
+     width: 550px;
+}
+
+.div-carta{
+     background-color: white;
+     font-family: 'Dancing Script';
+     font-size: 22px;
+     padding: 18px;
+     text-align: justify;
+}
+
+.artigo-titulo{
+     font-size: 30px;
+     font-weight: 800;
+     margin: 10px 0 15px 0;
+     text-align: center;
+}
+
+.artigo-primeiro-paragrafo{
+     margin: 25px 0 15px 0;
+}
+
+.lista-icones{
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     list-style: none;
+}
+
+.icones{
+     margin: 20px 35px 0 0;
+     width: 45px;
+}
+
+.segunda-filha{
+     align-items: center;
+     display: flex;
+     justify-content: center;
+}
+
+.video{
+     border: 2px solid black;
+     height: 450px;
+     width: 550px;
+}
+
+.rodape{
+     align-items: center;
+     background-color: #05699f;
+     border: 1px solid black;
+     display: flex;
+     height: 100px;
+     justify-content: center;
+}
+
+.rodape__direitos{
+     color: white;
+     font-size: 16px;
+     font-weight: 400;
+}
